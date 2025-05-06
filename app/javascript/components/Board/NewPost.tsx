@@ -216,12 +216,8 @@ class NewPost extends React.Component<Props, State> {
               return;
             }
 
-            if (isLoggedIn) {
-              this.toggleForm();
-              this.setState({ isSubmissionAnonymous: false });
-            } else {
-              window.location.href = '/users/sign_in';
-            }
+            this.toggleForm();
+            this.setState({ isSubmissionAnonymous: true });
           }}
           className="submitBtn"
           outline={showForm}
@@ -233,23 +229,6 @@ class NewPost extends React.Component<Props, State> {
               I18n.t('board.new_post.submit_button')
           }
         </Button>
-
-        {
-          (isAnonymousFeedbackAllowed && !showForm) &&
-            <div className="anonymousFeedbackLink">
-              {I18n.t('common.words.or')}
-              &nbsp;
-              <a
-                onClick={() => {
-                  this.toggleForm();
-                  this.setState({ isSubmissionAnonymous: true });
-                }}
-                className="link"
-              >
-                {I18n.t('board.new_post.submit_anonymous_button').toLowerCase()}
-              </a>
-            </div>
-        }
 
         {
           showForm ?
