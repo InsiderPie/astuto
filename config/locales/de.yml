@@ -20,7 +20,7 @@ de:
         new_password_confirmation: 'Neues Passwort bestätigen'
         current_password: 'Aktuelles Passwort'
         notifications_enabled: 'Benachrichtigungen aktiviert'
-        notifications_enabled_help: "Wenn deaktiviert, erhältst du keine Benachrichtigungen"
+        notifications_enabled_help: "Wenn deaktiviert, erhalten Sie keine Benachrichtigungen"
         waiting_confirmation: 'Warte auf Bestätigung von: %{email}'
         no_password_set: 'Sie müssen ein Passwort festlegen, um Ihr Profil zu aktualisieren'
         set_password: 'Passwort festlegen'
@@ -52,7 +52,7 @@ de:
     loading: 'Lädt...'
     confirmation: 'Sicher?'
     confirmation_board_delete: 'Warnung: Wenn es in diesem Forum Feedback Beiträge gibt, werden ALLE diese Beiträge ebenfalls gelöscht. Diese Aktion kann nicht rückgängig gemacht werden.'
-    unsaved_changes: 'Ungespeicherte Änderungen gehen verloren, wenn du die Seite verlässt.'
+    unsaved_changes: 'Ungespeicherte Änderungen gehen verloren, wenn Sie die Seite verlassen.'
     edited: 'Bearbeitet'
     enabled: 'Aktiviert'
     disabled: 'Deaktiviert'
@@ -120,7 +120,7 @@ de:
       no_title: 'Titelfeld ist obligatorisch'
       anonymous_submission_help: 'Sie posten anonym'
       non_anonymous_submission_help: 'Sie posten als %{name}'
-      submit_success: 'Feedback veröffentlicht! Du wirst gleich weitergeleitet...'
+      submit_success: 'Feedback veröffentlicht! Sie werden gleich weitergeleitet...'
       submit_pending: 'Ihr Feedback wurde übermittelt und wartet nun auf die Freigabe eines Moderators!'
     search_box:
       title: 'Suchen'
@@ -154,8 +154,8 @@ de:
     action_box:
       title: 'Aktionen'
       follow_button: 'Beitrag folgen'
-      following_description: "Du erhältst Benachrichtigungen über neue Updates zu diesem Beitrag"
-      not_following_description: "Du erhältst keine Benachrichtigungen zu diesem Beitrag"
+      following_description: "Sie erhalten Benachrichtigungen über neue Updates zu diesem Beitrag"
+      not_following_description: "Sie erhalten keine Benachrichtigungen zu diesem Beitrag"
     comments:
       title: 'Aktivität'
       post_update_badge: 'Aktualisierung'
@@ -165,7 +165,7 @@ de:
       submit_button: 'Senden'
       is_post_update: 'Als Aktualisierung markieren'
       user_notification: 'Benutzer, die diesem Beitrag folgen, werden benachrichtigt'
-      not_logged_in: 'Du musst Dich anmelden, um Kommentare zu posten'
+      not_logged_in: 'Sie müssen sich anmelden, um Kommentare zu posten'
   site_settings:
     menu:
       title: 'Seiteneinstellungen'
@@ -174,7 +174,7 @@ de:
       boards: 'Boards'
       post_statuses: 'Status'
       roadmap: 'Übersicht'
-      invitations: 'Invitations'
+      invitations: 'Einladungen'
       appearance: 'Erscheinung'
     info_box:
       up_to_date: 'Alle Änderungen gespeichert'
@@ -225,7 +225,7 @@ de:
       title2: 'Nicht in der Roadmap'
       title_embed: 'Embed roadmap'
       empty: 'Die Roadmap ist leer.'
-      help: 'Du kannst der Roadmap Status hinzufügen, indem du sie aus dem Abschnitt unten ziehst. Wenn du stattdessen einen neuen Status erstellst oder seine Reihenfolge ändern möchtest, gehe zu Site-Einstellungen Status.'
+      help: 'Sie können der Roadmap Status hinzufügen, indem Sie sie aus dem Abschnitt unten ziehen. Wenn Sie stattdessen einen neuen Status erstellen oder seine Reihenfolge ändern möchten, gehen Sie zu Site-Einstellungen Status.'
       show_board_filter: 'Show board filter'
       show_post_status_filter: 'Show status filter'
       embed_help: 'You can embed the roadmap in your website by copying the code above.'
@@ -303,10 +303,10 @@ de:
       title: 'Benutzer'
       block: 'Sperren'
       unblock: 'Entsperren'
-      block_confirmation: "%{name} kann sich nicht anmelden, bis die Blockierung aufgehoben wird. Bist du dir sicher?"
-      unblock_confirmation: "%{name} kann sich anmelden und Feedback senden. Bist du dir sicher?"
-      role_to_moderator_confirmation: "%{name} wird Posts und Nutzer*innen verwalten können. Fahre nur fort, wenn du dieser Person vertraust. Bist du dir sicher?"
-      role_to_admin_confirmation: "%{name} hat die gleichen Rechte wie du, sodass sie dich sogar herabstufen oder blockieren könnten. Fahre nur fort, wenn du %{name} wirklich vertraust. Bist du dir sicher?"
+      block_confirmation: "%{name} kann sich nicht anmelden, bis die Blockierung aufgehoben wird. Sind Sie sich sicher?"
+      unblock_confirmation: "%{name} kann sich anmelden und Feedback senden. Sind Sie sich sicher?"
+      role_to_moderator_confirmation: "%{name} wird Posts und Nutzer*innen verwalten können. Fahre nur fort, wenn Sie dieser Person vertrauen. Sind Sie sich sicher?"
+      role_to_admin_confirmation: "%{name} hat die gleichen Rechte wie Sie, sodass sie Sie sogar herabstufen oder blockieren könnten. Fahre nur fort, wenn Sie %{name} wirklich vertrauen. Sind Sie sich sicher?"
       role_user: 'Benutzer'
       role_moderator: 'Moderator'
       role_admin: 'Administrator'

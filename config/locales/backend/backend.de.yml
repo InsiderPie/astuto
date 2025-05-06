@@ -1,12 +1,12 @@
 de:
   errors:
     unknown: 'Ein unbekannter Fehler ist aufgetreten'
-    unauthorized: 'Du bist nicht autorisiert'
-    email_domain_not_allowed: 'You cannot register with the provided email address'
-    not_logged_in: 'Du musst angemeldet sein, um auf diese Seite zugreifen zu können'
-    not_enough_privileges: 'Du hast nicht die Berechtigung, auf diese Seite zuzugreifen'
-    user_blocked_or_deleted: 'Du kannst nicht auf dein Konto zugreifen, da es gesperrt oder gelöscht wurde.'
-    o_auth_login_error: 'Beim Einloggen mit %{name} ist ein Fehler aufgetreten. Bitte wende dich an den Administrator oder versuche einen anderen Anbieter.'
+    unauthorized: 'Sie sind nicht autorisiert'
+    email_domain_not_allowed: 'Sie können sich nicht mit der angegebenen E-Mail-Adresse registrieren'
+    not_logged_in: 'Sie müssen angemeldet sein, um auf diese Seite zugreifen zu können'
+    not_enough_privileges: 'Sie haben nicht die Berechtigung, auf diese Seite zuzugreifen'
+    user_blocked_or_deleted: 'Sie können nicht auf Ihr Konto zugreifen, da es gesperrt oder gelöscht wurde.'
+    o_auth_login_error: 'Beim Einloggen mit %{name} ist ein Fehler aufgetreten. Bitte wenden Sie sich an den Administrator oder versuchen Sie einen anderen Anbieter.'
     board:
       update_order: 'Beim Neuordnen der Boards ist ein Fehler aufgetreten'
     post_status:
@@ -19,17 +19,17 @@ de:
       welcome_greeting: 'Willkommen auf %{site_name}, %{email}!'
       opening_greeting: 'Hallo %{email}!'
       confirmation_instructions:
-        body: 'Du kannst deine Konto-E-Mail über den folgenden Link bestätigen:'
+        body: 'Sie können Ihre Konto-E-Mail über den folgenden Link bestätigen:'
         action: 'Mein Konto bestätigen'
       email_changed:
-        body: "Wir kontaktieren dich, um dich darüber zu informieren, dass deine E-Mail-Adresse in %{email} geändert wird."
-        body2: "Wir kontaktieren dich, um dich darüber zu informieren, dass deine E-Mail-Adresse in %{email} geändert wurde."
+        body: "Wir kontaktieren Sie, um Sie darüber zu informieren, dass Ihre E-Mail-Adresse in %{email} geändert wird."
+        body2: "Wir kontaktieren Sie, um Sie darüber zu informieren, dass Ihre E-Mail-Adresse in %{email} geändert wurde."
       password_change:
-        body: "Wir kontaktieren dich, um dich darüber zu informieren, dass dein Passwort geändert wurde."
+        body: "Wir kontaktieren Sie, um Sie darüber zu informieren, dass Ihr Passwort geändert wurde."
       reset_password:
-        body: 'Jemand hat einen Link angefordert, um dein Passwort zu ändern. Du kannst dies über den unten stehenden Link tun.'
-        body2: "Wenn du dies nicht angefordert hast, ignoriere diese E-Mail bitte."
-        body3: "Dein Passwort ändert sich erst, wenn du auf den obigen Link zugreifst und ein neues erstellst."
+        body: 'Jemand hat einen Link angefordert, um Ihr Passwort zu ändern. Sie können dies über den unten stehenden Link tun.'
+        body2: "Wenn Sie dies nicht angefordert haben, ignorieren Sie diese E-Mail bitte."
+        body3: "Ihr Passwort ändert sich erst, wenn Sie auf den obigen Link zugreifen und ein neues erstellen."
         action: 'Mein Passwort ändern'
     user:
       opening_greeting: 'Hallo %{name}!'
